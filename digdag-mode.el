@@ -73,7 +73,7 @@
     ,@yaml-font-lock-keywords))
 
 ;;;###autoload
-(define-derived-mode digdag-mode yaml-mode "DigDag"
+(define-derived-mode digdag-mode yaml-mode "Digdag"
   "Major mode for editing Treasure Data digdag file"
   (setq font-lock-defaults '(digdag-mode--font-lock-keywords)))
 
