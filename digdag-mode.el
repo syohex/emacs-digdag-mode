@@ -78,7 +78,7 @@
   (setq font-lock-defaults '(digdag-mode--font-lock-keywords)))
 
 ;;;###autoload
-(add-to-list 'auto-mode-alist '("\\.dig" . digdag-mode))
+(add-to-list 'auto-mode-alist '("\\.dig\\'" . digdag-mode))
 
 (provide 'digdag-mode)
 
