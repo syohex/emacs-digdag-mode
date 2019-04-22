@@ -37,7 +37,7 @@
   "Face of digdag operators")
 
 (defface digdag-operator
-  '((t (:foreground "red")))
+  '((t (:foreground "brightblue")))
   "Face of digdag operators")
 
 (defvar digdag-mode--date-regex
